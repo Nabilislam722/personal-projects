@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.body-dark{
+  background: black;
+  color: white;
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: #f8fafc;
@@ -69,6 +73,10 @@ header {
   border-radius: 50%;
   background: white;
   cursor: pointer;
+}
+.moon:hover{
+  background: rgb(243, 243, 243);
+  transition: all 0.2s ease-in-out;
 }
 .resume {
   border: none;
