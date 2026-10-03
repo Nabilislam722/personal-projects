@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8fafc;
+    color: #111827;
+}
+header {
+  border-bottom: 1px solid #bdcbdc ;
+  background: #f4f7fb;
+}
+.navbar {
+  width: 90%;
+  max-width: 1230px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo span {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4b5b1f;
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 8px 15px rgba(0, 140, 210, 0.2);
+
+}
+.logo h2 {
+  font-size: 22px;
+}
+.link {
+  display: flex;
+  gap: 35px;
+  list-style: none;
+}
+.link a {
+  text-decoration: none;
+  color:#64748b ;
+  font-size: 17px;
+  font-weight: 600;
+  
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.moon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #dce4ed;
+  border-radius: 50%;
+  background: white;
+  cursor: pointer;
+}
+.resume {
+  border: none;
+  background: #0789c9;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+ 
+}
